@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedidos</title>
+</head>
+<body>
+    <header>
+        <img src="../imgs/cakeFac.png" alt="LOGO">
+        <ul>
+            <li>Servicios
+                <ul>
+                    <li><a href="./pedido.html">Perdido personaliazado</a></li>
+                </ul>
+            </li>
+        </ul>
+    </header>
+    <h1>Pedido</h1>
+    <br>
+    <form action="" method="post">
+        <label for="cliente">Nombre:</label>
+        <input type="text" name="cliente" id="cliente" placeholder="Su nombre">
+        <br>
+        <label for="telefono">Telefono</label>
+        <input type="phone" name="telefono" id="telefono">
+        <br>
+        <label for="correo">Correo</label>
+        <input type="email" name="correo" id="correo">
+        <br>
+        <label for="descripcion">Descropci&oacute;n</label>
+        <br>
+        <textarea placeholder="Realize una descripción de su pedido"></textarea>
+        <br>
+        <label for="sabores">Selecci&oacute;n de sabores</label>
+        <div>
+            <input type="checkbox" name="s-chocolate" id="s-chocolate">
+            <label for="s-chocolate">Chocolate</label>
+            <input type="checkbox" name="s-almendra" id="s-almendra">
+            <label for="s-chocolate">Almendra</label>
+            <input type="checkbox" name="s-cajeta" id="s-cajeta">
+            <label for="s-chocolate">Cajeta</label>
+            <input type="checkbox" name="s-durazno" id="s-durazno">
+            <label for="s-chocolate">Durazno</label>
+            <input type="checkbox" name="s-fresa" id="s-fresa">
+            <label for="s-chocolate">Fresa</label>
+            <input type="checkbox" name="s-moka" id="s-moka">
+            <label for="s-chocolate">Moka</label>
+            <input type="checkbox" name="s-queso" id="s-queso">
+            <label for="s-chocolate">Queso</label>
+        </div>
+        <label for="adoros">Selecci&oacute;n de adornos</label>
+        <div>
+            <input type="checkbox" name="a-crema-pastelera" id="a-crema-pastelera">
+            <label for="s-chocolate">Crema pastelera</label>
+            <input type="checkbox" name="a-fondant" id="a-fondant">
+            <label for="s-chocolate">Fondant</label>
+            <input type="checkbox" name="a-azucar-glass" id="a-azucar-glass">
+            <label for="s-chocolate">Az&uacute;car glass</label>
+            <input type="checkbox" name="a-frutos-secos" id="a-frutos-secos">
+            <label for="s-chocolate">Frutos secos</label>
+            <input type="checkbox" name="a-chispas" id="a-chispas">
+            <label for="s-chocolate">Chispas de sabores</label>
+            <input type="checkbox" name="s-moka" id="a-gache">
+            <label for="s-chocolate">Ganache</label>
+        </div>
+        <label for="fecha">Fecha del evento:</label>
+        <input type="date" name="fecha" id="fecha">
+        <br>
+        <label for="pago">M&eacute;todo de pago:</label>
+        <select name="pago" id="pago">
+            <option value="Seleciona el método de pago" selected></option>
+            <option value="tarjeta">Tarjeta de cr&eacute;dito</option>
+            <option value="tarjeta-regalo">Tarjeta de regalo</option>
+            <option value="efectivo">Efectivo</option>
+        </select>
+        <br>
+        <input type="submit" value="Realizar pedido">
+    </form>
+    <footer>
+        <hr>
+        <p>Dirección: Calle siempre viva #123, local #456</p>
+        <p>T&eacute;lefono: 2244881216</p>
+        <p>Horarios de antenci&oacute;n: Marte - Domingo 10:00 - 20:00 hrs.</p>
+    </footer>
+</body>
+</html>
